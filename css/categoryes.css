@@ -1,0 +1,43 @@
+#categoryes{
+    border: 10px outset  #bba5b9;
+    border-radius: 10px;
+
+    background: #bba5b9;
+
+    width: 120px;
+
+    display: block;
+    flex-wrap: wrap;
+
+}
+
+#categoryes div > a {
+    background: transparent; 
+    outline: none; 
+    border: 0; 
+
+    text-align: center;
+
+    border: 1px solid transparent; 
+    border-radius: 10px;
+
+    color: #171518;
+}
+
+#categoryes div > form > button {
+    background: transparent; 
+    outline: none; 
+    border: 0; 
+
+    text-align: center;
+
+    border: 1px solid transparent; 
+    border-radius: 10px;
+
+    color: #89A5C3;
+}
+
+#categoryes div:hover{
+    border-radius: 10px;
+    background: #766a7c;
+}

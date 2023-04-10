@@ -1,0 +1,13 @@
+#showAllButton{
+    margin-left: 50%;
+
+    border: 1px solid transparent; 
+    border-radius: 4px; 
+
+    background: #BB8AF0
+}
+
+#showAllButton:hover{
+    background: #d3a8e0;
+    box-shadow: 2px 2px 2px 2px rgb(77, 46, 80);
+}

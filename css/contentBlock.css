@@ -1,0 +1,31 @@
+#contentBlock{
+    display: inline-flex; 
+    flex-wrap: wrap;
+
+    width: 90%;
+
+    margin-top: 20px;
+}
+
+#contentBlock > div{
+    display: flexbox;
+    flex-wrap: wrap;
+    width: 400px;
+
+    margin-left: 40px;
+}
+
+#contentBlock > div > form:first-child > button{
+    background: transparent; 
+    outline: none; 
+    border: 0; 
+}
+
+#contentBlock > div > form:first-child > button > img{
+    width: 280px;
+    height: 300px;
+}
+
+#contentBlock > div > form:last-child{
+    display: inline-flex;
+}

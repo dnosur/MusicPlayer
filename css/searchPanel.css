@@ -1,0 +1,30 @@
+
+#searchPanel{
+    margin-top: 20px
+}
+
+#searchPanel > form{
+    background: rgb(187, 68, 68);
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+    display: flex; 
+    flex-direction: column; 
+    flex-wrap: wrap;
+
+    padding: 10px; 
+    width: 440px
+}
+
+#searchPanel > form > div{
+    display: inline-flex;
+}
+
+#searchPanel > form > button{
+    color: white;
+    font-weight: bold;
+
+    background: #219be7;
+    border: transparent;
+}

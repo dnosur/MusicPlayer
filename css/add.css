@@ -1,0 +1,18 @@
+#add{
+    width: 30%;  
+    margin-left: 30px; 
+    padding-top: 100px;
+}
+
+#add > form > .form-outline{
+    margin-top: 10px;
+}
+
+#add > form > #AddSale{
+    margin-top: 10px;
+    display: none;
+}
+
+#add > form > #AddSale > .form-outline{
+    margin-top: 10px;
+}

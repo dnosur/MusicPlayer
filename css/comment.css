@@ -1,0 +1,22 @@
+#comment{
+    display: flexbox; 
+    flex-wrap: wrap;
+}
+
+#comment > pre{
+    width: 900px;
+
+    background: transparent; 
+    color: black; 
+    
+    border: none
+}
+
+#comment > div{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+#comment > div > img{
+    margin-left: 10px;
+}
